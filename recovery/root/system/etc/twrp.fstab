@@ -18,7 +18,7 @@ odm		/odm		ext4							display="Odm";logical,first_stage_mount
 /misc		emmc		/dev/block/bootdevice/by-name/misc
 /keydata	ext4		/dev/block/bootdevice/by-name/keydata
 /keyrefuge	ext4		/dev/block/bootdevice/by-name/keyrefuge
-/dtbo		emmc		/dev/block/bootdevice/by-name/dtbo			flags=backup=1;display="Dtbo"
+/dtbo_image		emmc		/dev/block/bootdevice/by-name/dtbo			flags=backup=1;flashimg;display="DTBO Image"
 /optics_image	emmc		/dev/block/bootdevice/by-name/optics			flags=backup=1;flashimg;display="Optics Image"
 /prism_image	emmc		/dev/block/bootdevice/by-name/prism			flags=backup=1;flashimg;display="Prism Image"
 
