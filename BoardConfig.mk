@@ -55,7 +55,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 QCOM_BOARD_PLATFORMS += msm8953
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/a02q/prebuilt/Image.gz
+TARGET_PREBUILT_KERNEL := device/samsung/a02q/prebuilt/Image.gz-dtb
 TARGET_PREBUILT_DTB := device/samsung/a02q/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/a02q/prebuilt/recoverydtbo
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
